@@ -1,0 +1,37 @@
+Craig Waterman
+Reveiw and Reflect 4
+
+Variable
+1. a variable is something you set to hold data types that you cna use or manipulate later.
+2. ruby will put AbrahamLincoln as full name becasue it added two strings together in the order written
+
+data types
+string- a string is a section of letters and words.  Take as its own type. 
+integer- what ruby sees as a number.  it can do math with them. 1,2,3,-6 ect
+float- is an integer with a decmial 2.2
+nil- nil is represted as nothing.  if you dont give an aswer or ski a qustion 		its nil
+boolean is represeted as true or false.
+
+algorithms
+an algorithm is giving specific directions.  could be to a computer, program or 	person.  
+ searching- looking through data for a specific outcome (checking emails with 		dogs in subject)
+ sorting- sort data into catergories (sort words into alphabetical order)
+
+ methods
+ a method is a set of code the program does once called upon
+ return value- what the outcome of a method is once complete
+ side effect- if a method modifies some state or has an obserable interaction 		with calling funtions or outside world 
+ parameter- the given rules or guidelines methods must follow.  
+ argument- values that will be used if the callaer doesnt pass them explicitly.  
+ implicit return- vlaue that is no specified but the last return value of method
+ scope is where in a program a variable is accessible.  
+ global- in the entire program marged with $
+ method is a local veriable only avaible in that method
+
+ control flow is how the program performs actions.  in what order, where to start and go next.
+ loop- will run the same program over and over again until the stoping point is 	reached.   
+ if one thing is true do this
+ else- if the "if" is not reached run this
+ elsif- addeding more parameters in the loop, becomig more specific
+ while- while this is true do this, when it is not true stop
+ until- do this until this is met.  Stop when the parameter is met.  

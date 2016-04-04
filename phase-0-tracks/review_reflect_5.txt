@@ -1,0 +1,34 @@
+Craig Waterman
+Reveiw and Reflect week 5
+
+Data Structures
+1. Why are data structures useful in programming?
+It is a way to orgnaize information, in lists or in items and values.  It helps
+
+Arrays
+2. Define "array" and describe the characteristics of an array.
+an array is a list of items in ruby.  It has a name, brackets and different items inside.
+
+3. Give two original examples of data sets that an array might be well-suited for.
+teams in the NBA, and making a grocery list
+
+Hashes
+4. Define "hash" and describe the characteristics of a hash.
+a hash is a way to organize data  taht has a key and value.  hases have a name use curly brackets.  it is different than an array because each item has two parts
+
+5. Give two original examples of data sets that a hash might be well-suited for.
+list of items for sale (key) and how much they coast (value), an application form, type of information general (name) and specific to applicant (Craig)
+
+Iteration
+6. Why is iteration useful?
+executing a block of code on each item of an array or hash
+
+7. Give an example of a real-life task that would require iteration if you wrote an algorithm for it.
+if you are selling items, and an item is sold and out of stock, instead of listing a price (the value of a hash) it chamges to nil because you cant sell it anymore because you dont have it so no price is needed.
+
+Blocks
+8. What is a block?
+a block is code you want to run but is limited to the parameters, not the entiere program.
+
+9. What is a block parameter, and where does its value come from?
+it tells you what to run your code block on. the programer makes it up in the yeild statement.    
