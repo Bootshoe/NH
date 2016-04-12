@@ -1,0 +1,19 @@
+Craig Waterman 
+Review and reflect 3
+
+1. font-style: choose whcih font to use
+display: how you dispaly eleements, block, inline, flex
+weight- choose how thick something is like border or text
+
+2. you can link it using <link> to a css stylesheet, you can add it into the html directly, or inkline add css to the line you want to effect 
+
+using a link to a because you can work on css seperectly and in a css folder.  
+
+3. a slector is how to choose what code you want to work on.  you can use .class, #id, or *all the same elements
+
+4. box- model is a way to disginguish different elements in html.  you can add a border or just leave it blank and work on the box interally.  change one box but not the other.  
+
+5. cascading determines which rule or would apply to the html, the default is what ever rule is written first in the code, that is the rule that will apply.  
+
+6. max-width: will alter text or pictures depending on how many pixels wide your screen is.  it might only let the words shrink to  certian size so you can still read them.
+@media will change your sites set up if you are reading it on a tablet or smartphone.  sidebars might be added to the top or bottom

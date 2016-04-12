@@ -1,0 +1,27 @@
+robot elevator use
+
+-ride evevator until on desired floor
+	-aproach elevator door stop.
+	-determine if floor on is higher or lower than floor desired, then find up and down arrow buttons next to elevator door
+		-if floor on is higher than desiered floor, press down button
+		-if floor on is lower than desired floor, press up button
+	-when elevator door opens, look above door to see up and down arrows, determine which arrow is lite up
+		-if arrow lite up is same as arrow button pressed enter elveator,
+		-if arrow lite up if different from arrow button pused, wait until arrow lite up is the same as arrow button pushed
+	-when on elevator find floor number buttons. 
+	-hit button of desired floor
+	-wait until evevator door opens, then check above door to see number
+		-if number above door is the same as desired floor, get off elevator
+		-if number above door is different than desired floor stay on elevator
+
+
+
+wathing netflix
+
+-find remote to TV
+-press power button on remote for TV, wait
+-once TV is fully functional, press nextflix buttton on remote, wait
+-once netflix fully loaded use arrow buttons to find desired program
+-once highligted on desired program press enter button on remote, wait for program to laod
+-adjust volume using volume buttons on remote
+-watch desired program

@@ -1,0 +1,17 @@
+div{
+	display: list-item;
+}
+
+.hat {
+	position: relative;
+	margin-bottom: 200px;
+}
+.octo {position: absolute;
+    left: 200px;
+}
+
+.glass{
+	position: absolute;
+    right: 200px;
+    z-index: 5;
+}

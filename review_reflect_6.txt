@@ -1,0 +1,21 @@
+Craig Waterman
+
+Rewview and Reflect Wekk 6
+
+1. What are classes? Be sure to define the following terms in your explanation and describe the relationships between them:
+
+class- like a blueprint or model which objects are created.  hold instances, objects used to work with
+state
+behavior- methods within a class.  
+instance variable- begins with a @ can not be altered form outside the object.
+instance method-methods created with the class, at the same time.  baseline for the class.  
+
+2. What are attributes? They characteristics or data for each instance.  a speacial sort of variable
+
+3. Give an example of a real world object, and describe how you might assign its attributes if you were to design a class to represent that object.   A dog, you could assign age, hair color, type for all different dogs
+
+4. What is the purpose of the initialize method? When does it run? it runs when you create a new instance.  Its purpose is to show the user a new instance was created. 
+
+5. What are modules?  Are created so youcan use them across different classes.  They can be added to a class, and be able to use that code.  
+
+6. What are the different ways you can use a module? you can group methods together so you dont need to create the same code multiple times.  You can assign them to a class
