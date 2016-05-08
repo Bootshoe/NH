@@ -7,13 +7,11 @@ html *
 h2 {
 	font-family: Comic Sans MS;
 	color: purple;
-
 }
 
 p {
 	font-family: Comic: Sans MS;
 	background-color: red;
-
 }
 
 tr.d0 td {
@@ -33,12 +31,12 @@ tr.d0 td {
 	width: 300px;
 	margin: 10px;
 	background-color: lime;
-
 }
 
 
 p.p1 {
 	border-style: solid;
+	font-family: Comic Sans MS;
 }
 
 #p {
@@ -51,5 +49,4 @@ p.p1 {
 	right: 10px;
 	width: 100px;
 	height: 100px;
-
 }
