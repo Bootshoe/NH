@@ -6,7 +6,7 @@ html *
 
 h2 {
 	font-family: Comic Sans MS;
-	color: blue;
+	color: purple;
 
 }
 
@@ -36,15 +36,6 @@ tr.d0 td {
 
 }
 
-tr.d0 th {
-  background-color: #CC9999;
-  color: black;
-}
-
-tr.d1 td {
-  background-color: #9999CC;
-  color: black;
-}
 
 p.p1 {
 	border-style: solid;
