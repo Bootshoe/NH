@@ -1,0 +1,64 @@
+html *
+{
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+h2 {
+	font-family: Comic Sans MS;
+	color: blue;
+
+}
+
+p {
+	font-family: Comic: Sans MS;
+	background-color: red;
+
+}
+
+tr.d0 td {
+  background-color: #CC9999;
+  color: black;
+}
+
+#main {
+	float: left;
+	width: 620px;
+	margin: 10ps;
+	background-color: yellow;
+}
+
+#side {
+	float: right;
+	width: 300px;
+	margin: 10px;
+	background-color: lime;
+
+}
+
+tr.d0 th {
+  background-color: #CC9999;
+  color: black;
+}
+
+tr.d1 td {
+  background-color: #9999CC;
+  color: black;
+}
+
+p.p1 {
+	border-style: solid;
+}
+
+#p {
+	border-style: dashed;
+}
+
+#num1 {
+	position: fixed;
+	top: 0px;
+	right: 10px;
+	width: 100px;
+	height: 100px;
+
+}
