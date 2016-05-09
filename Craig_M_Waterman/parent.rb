@@ -10,22 +10,23 @@ class Parent
 
 	def greet_child
 		puts "*yaaaawn* I'm up, I'm up. #{@name} is up.  What's the matter?"
+		"*yaaaawn* I'm up, I'm up. #{@name} is up.  What's the matter?"
 	end
 
 	def hear_request(request)
 			request_num=request.split
 		if request_num.length<=@hours_slept
 			puts "Okay, since you said #{request} so nicely"
-			@past_requests["#{request}"]=true
+			@past_requests["#{request}"]="granted"
 			true
 		else
 			puts "Not today, sweetie."
-			@past_requests["#{request}"]=false
+			@past_requests["#{request}"]="denied"
 			false
 		end
 	end
 
-	def past_requests
+	def display_request_histroy
 		@past_requests
 	end
 
@@ -36,5 +37,5 @@ susie=Parent.new("Susie",4)
 bob.greet_child
 bob.hear_request("can i go to the park?")
 susie.hear_request("make breakfast")
-puts bob.past_requests
+bob.display_request_histroy
 
