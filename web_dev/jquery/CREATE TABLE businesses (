@@ -1,0 +1,36 @@
+CREATE TABLE businesses (
+id INTEGER PRIMARY KEY,
+name VARCHAR(150)
+);
+
+CREATE TABLE user (
+id INTEGER PRIMARY KEY,
+first_name VARCHAR(150),
+last_name VARCHAR(150)
+);
+
+INSERT INTO businesses (name) VALUES ("")
+
+INSERT INTO businesses (name) VALUES ("")
+
+INSERT INTO businesses (name) VALUES ("")
+
+INSERT INTO businesses (name) VALUES ("")
+
+INSERT INTO user (first_name, last_name) VALUES ("","")
+
+INSERT INTO user (first_name, last_name) VALUES ("","")
+
+INSERT INTO user (first_name, last_name) VALUES ("","")
+
+INSERT INTO user (first_name, last_name) VALUES ("","")
+
+CREATE TABLE reviews (
+id INTEGER PRIMARY KEY,
+stars INT,
+comment CARCHAR(255),
+business_id INT,
+user_id INT
+FOREIGN KEY (business_id) REFERENCES businesses(id),
+FOREIGN KEY (user_id) REFERENCES user(id)
+);
